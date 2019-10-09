@@ -1,4 +1,4 @@
-
+import * as types from './actionTypes';
 const initialState = {
     additionalPrice: 0, 
     car: {
@@ -6,7 +6,7 @@ const initialState = {
     name: '2019 Ford Mustang',
     image:
         'https://cdn.motor1.com/images/mgl/0AN2V/s1/2019-ford-mustang-bullitt.jpg',
-    features: [{ id: 1, name: 'V-6 engine', price: 1500 }]
+    features: []
     },
     store: [
     { id: 1, name: 'V-6 engine', price: 1500 },
